@@ -13,9 +13,10 @@ Further descriptions are in the jupyter notebooks, along with further setup inst
 
 <hr>
 
-To use the same Python environment that was originally used, download Anaconda (or Miniconda), activate a base anaconda environment, then in the terminal, do the following:
+To use the same Python environment that was originally used, download Anaconda (or Miniconda), then in the terminal, do the following:
 
 ```
+    source anaconda3/bin/activate
     conda create -n fast2 python=3.7.7
     conda activate fast2
     conda install jupyter
