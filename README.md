@@ -1,4 +1,4 @@
-# Siamese_in_progress
+# Siamese-in-progress
 Siamese networks that almost work, written in Pytorch
 
 <hr>
