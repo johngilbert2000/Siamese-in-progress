@@ -1,5 +1,5 @@
 # Siamese_in_progress
-Siamese networks that almost work
+Siamese networks that almost work, written in Pytorch
 
 <hr>
 
