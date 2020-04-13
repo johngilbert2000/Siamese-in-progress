@@ -5,7 +5,7 @@ Siamese networks that almost work, written in Pytorch
 
 The files are as follows:
 
-- `LFW_setup.ipynb`: run this to set up the LFW dataset for training. Originally this was stored in a folder labeled `/lfw`, which also contained the downloaded LFW dataset.
+- `LFW_setup.ipynb`: run this to set up the LFW dataset for training. Originally this was stored in a folder labeled `/lfw`, which also contained the downloaded LFW dataset. (Directory setup example shown below).
 - `APD_setup.ipynb`: run this to set up the APD dataset, if you have access to it. Note: originally the APD dataset was stored in a folder labeled `/data`, and the notebook `APD_setup.ipynb` was run in the directory containing the folder `/data` (i.e., one directory above the dataset APD)
 - `siamese_LFW.ipynb`: run this in the directory above `/data` or `/lfw` to train a siamese network that doesn't yet work. I'm still unsure why. (Note: I recommend running each cell individually, so you know what each cell is doing, and in case the file paths are different).
 
@@ -16,8 +16,8 @@ Note: when you unzip the LFW dataset, it also creates a folder named `lfw`, so m
 ├──`siamese.ipynb`
 ├──`APD_setup.ipynb`
 ├── `/data`
-     ├── `C.zip` (APD dataset)
-     └──`/C` (made from unzipping `C.zip`)
+|    ├── `C.zip` (APD dataset)
+|    └──`/C` (made from unzipping `C.zip`)
 └──`/lfw`
      ├── `lfw.tgz`
      ├── `LFW_setup.ipynb`
