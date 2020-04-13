@@ -17,6 +17,7 @@ Note: when you unzip the LFW dataset, it also creates a folder named `lfw`, so m
 ├──`APD_setup.ipynb`
 ├── `/data`
      ├── `C.zip` (APD dataset)
+     └──`/C` (made from unzipping `C.zip`)
 └──`/lfw`
      ├── `lfw.tgz`
      ├── `LFW_setup.ipynb`
