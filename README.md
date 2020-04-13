@@ -13,7 +13,7 @@ Further descriptions are in the jupyter notebooks, along with further setup inst
 
 Note: when you unzip the LFW dataset, it also creates a folder named `lfw`, so my directory structure was originally as follows:
 ```
-├──`siamese.ipynb`
+├──`siamese_LFW.ipynb`
 ├──`APD_setup.ipynb`
 ├── `/data`
 |    ├── `C.zip` (APD dataset)
